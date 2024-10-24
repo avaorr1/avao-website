@@ -1,0 +1,79 @@
+
+
+.dela-gothic-one-regular {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.marcellus-regular {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+	
+	h1{
+		font-family: "Dela Gothic One";
+		font-size: 250%;
+		color: #efe9f0;
+	}
+	
+	h2{
+		color: #efe9f0;
+	}
+	
+	p{
+		font-family: "Marcellus";
+		color: #efe9f0;
+		font-size: 100%;
+	}
+	footer {
+	background-color: lightyellow;
+	height: 50px;
+	font-size: 20px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+
+}
+
+header {
+	background-color: lightyellow;
+	height: 50px;
+	font-size: 20px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+/*start of media queries*/
+@media screen and (max-width: 500px){
+main {
+	width: 100%;
+}
+body {
+	background-color: lightgoldenrodyellow;
+}
+
+
+}
+
+@media screen and (min-width: 501px){
+main {
+	width: 100%;
+}
+body {
+	background-color: lightblue;
+}
+
+@media screen and (min-width: 720px){
+main {
+	width: 100%;
+}
+body {
+	background-color: #86608e;
+}
+
+}
